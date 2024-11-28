@@ -190,7 +190,7 @@ export class Ui {
                                 <h3>Tags : </h3>
                                 ${tagCont}
                             </li>
-                            <li class="d-flex gap-2 align-items-baseline">
+                            <li class="d-flex gap-2 align-items-baseline mt-2">
                                 <a href="${data[0].strSource}" target="_blank" class="btn btn-success list-unstyled">Source</a>
                                 <a href="${data[0].strYoutube}" target="_blank"  class="btn btn-danger list-unstyled">Youtube</a>
                             </li>
@@ -220,6 +220,5 @@ export class Ui {
     }
     this.rowSearch.innerHTML=str;
   }
-
 
 }
